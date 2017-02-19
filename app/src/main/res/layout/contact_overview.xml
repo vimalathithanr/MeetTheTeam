@@ -20,7 +20,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/tvHeading"
-        android:layout_margin="12dp"
         android:nestedScrollingEnabled="false"
         android:scrollbars="vertical" />
 

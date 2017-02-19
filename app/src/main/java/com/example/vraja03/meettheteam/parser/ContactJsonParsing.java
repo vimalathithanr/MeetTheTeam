@@ -1,5 +1,6 @@
 package com.example.vraja03.meettheteam.parser;
 
+import android.content.ContentValues;
 import android.content.Context;
 
 import com.example.vraja03.meettheteam.model.Contact;
@@ -41,9 +42,8 @@ public class ContactJsonParsing {
     private void jsonReader(String json) {
         try {
             JSONArray contactsArray = new JSONArray(json);
-            Contact contactObj = new Contact();
-
             for (int contact = 0; contact < contactsArray.length(); contact++) {
+                Contact contactObj = new Contact();
                 JSONObject individualContactObject = (JSONObject) contactsArray.get(contact);
                 contactObj.setId(individualContactObject.optString("id"));
                 contactObj.setAvatar(individualContactObject.optString("avatar"));

@@ -46,9 +46,6 @@
                 android:fontFamily="sans-serif"
                 android:gravity="center"
                 android:includeFontPadding="false"
-                android:paddingBottom="1dp"
-                android:paddingLeft="2dp"
-                android:paddingRight="2dp"
                 android:text="@string/name"
                 android:textColor="@color/text_regular_value"
                 android:textSize="15sp" />
