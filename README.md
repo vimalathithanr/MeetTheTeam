@@ -11,7 +11,7 @@ Home Screen
 
 
 Detail Srceen
-<img src='https://github.com/vimalathithanr/MeetTheTeam/blob/master/etailScreen.png' />
+<img src='https://github.com/vimalathithanr/MeetTheTeam/blob/master/DetailScreen.png' />
 
 
 ## Open-source libraries used
