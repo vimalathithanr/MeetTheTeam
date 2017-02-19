@@ -7,10 +7,12 @@ Time spent: **2** hours spent in total
 ## Screenshots
 
 Home Screen
+
 <img src='https://github.com/vimalathithanr/MeetTheTeam/blob/master/HomeScreen.png' />
 
 
 Detail Srceen
+
 <img src='https://github.com/vimalathithanr/MeetTheTeam/blob/master/DetailScreen.png' />
 
 
