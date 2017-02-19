@@ -6,4 +6,6 @@
 
     <color name="app_background_white">#FFFFFF</color>
     <color name="text_regular_value">#2B2B2B</color>
+
+    <color name="heading_title_blue">#2C7BFF</color>
 </resources>

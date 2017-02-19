@@ -7,11 +7,13 @@
         android:id="@+id/tvHeading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/meet_the_team"
         android:layout_marginLeft="12dp"
-        android:layout_marginTop="12dp"
         android:layout_marginRight="12dp"
-        android:textSize="26sp"/>
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/meet_the_team"
+        android:textColor="@color/heading_title_blue"
+        android:textSize="26sp" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvContacts"

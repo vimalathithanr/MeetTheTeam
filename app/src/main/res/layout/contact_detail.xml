@@ -43,10 +43,9 @@
         android:fontFamily="sans-serif"
         android:gravity="center"
         android:includeFontPadding="false"
-        android:text="Title"
+        android:text="@string/title"
         android:textColor="@color/text_regular_value"
         android:textSize="15sp" />
-
 
     <TextView
         android:id="@+id/tvBio"
@@ -59,9 +58,8 @@
         android:fontFamily="sans-serif"
         android:gravity="center"
         android:includeFontPadding="false"
-        android:text="Bio"
+        android:text="@string/bio"
         android:textColor="@color/text_regular_value"
         android:textSize="15sp" />
-
 
 </LinearLayout>
