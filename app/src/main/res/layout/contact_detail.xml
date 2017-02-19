@@ -1,65 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_background_white"
-    android:orientation="vertical"
-    android:padding="20dp">
+    android:fillViewport="true">
 
-    <ImageView
-        android:id="@+id/ivAvatar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:padding="4dp"
-        android:scaleType="center"
-        android:src="@mipmap/ic_launcher" />
-
-    <TextView
-        android:id="@+id/tvName"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="12dp"
-        android:focusable="true"
-        android:focusableInTouchMode="false"
-        android:fontFamily="sans-serif"
-        android:gravity="center"
-        android:includeFontPadding="false"
-        android:text="@string/name"
-        android:textColor="@color/text_regular_value"
-        android:textSize="15sp" />
+        android:layout_height="match_parent"
+        android:background="@color/app_background_white"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="4dp"
+            android:scaleType="center"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/name"
+            android:textColor="@color/text_regular_value"
+            android:textSize="@dimen/text_name"
+            android:textStyle="bold" />
 
 
-    <TextView
-        android:id="@+id/tvTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="12dp"
-        android:focusable="true"
-        android:focusableInTouchMode="false"
-        android:fontFamily="sans-serif"
-        android:gravity="center"
-        android:includeFontPadding="false"
-        android:text="@string/title"
-        android:textColor="@color/text_regular_value"
-        android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/title"
+            android:textColor="@color/text_regular_value"
+            android:textSize="@dimen/text_title" />
 
-    <TextView
-        android:id="@+id/tvBio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="12dp"
-        android:focusable="true"
-        android:focusableInTouchMode="false"
-        android:fontFamily="sans-serif"
-        android:gravity="center"
-        android:includeFontPadding="false"
-        android:text="@string/bio"
-        android:textColor="@color/text_regular_value"
-        android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tvBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/bio"
+            android:textColor="@color/text_regular_light"
+            android:textSize="@dimen/text_bio" />
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

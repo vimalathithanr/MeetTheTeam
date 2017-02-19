@@ -40,7 +40,7 @@ public class ContactsDetailFragment extends Fragment {
 
         Bundle b = getArguments();
         if(b!=null){
-            int imageSize = (int) getActivity().getResources().getDimension(R.dimen.image_size);
+            int imageSize = (int) getActivity().getResources().getDimension(R.dimen.image_size_detail);
             Picasso.with(getActivity()).load(b.getString("avatar")).resize(imageSize, imageSize).centerCrop().into(ivAvatar);
             tvName.setText(b.getString("name"));
             tvTitle.setText(b.getString("title"));
