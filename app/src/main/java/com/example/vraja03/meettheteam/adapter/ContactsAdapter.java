@@ -44,7 +44,7 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHo
         final Contact co = contactObj.get(position);
 
 
-        holder.tvName.setText(co.getFristName() + "," + co.getLastName());
+        holder.tvName.setText(co.getFristName() + " " + co.getLastName());
         String url = co.getAvatar();
         int imageSize = (int) context.getResources().getDimension(R.dimen.image_size);
         Picasso.with(context).load(url).resize(imageSize, imageSize).centerCrop().into(holder.ivAvatar);
